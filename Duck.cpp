@@ -124,6 +124,8 @@ string Duck :: chooseColor(){
         cout << "Invalid option." << endl;
         chooseColor();
     }
+
+    return "";
 }
 
 
@@ -413,5 +415,6 @@ int Duck :: shop(int coins)
     
     }
     
+    return coins;
 
 }

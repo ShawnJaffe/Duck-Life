@@ -1974,5 +1974,7 @@ bool Race :: worldChampionship (int r1, int s1, int f1, int e, string n){
         cout << n << " came in 2nd. Better luck next time!" << endl;
         sleep(2);
     }
+
+    return 0;
         
 }
